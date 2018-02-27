@@ -16,6 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let json = try! JSONSerialization.data(withJSONObject: [
+            "id": 2,
+            "name": "asdad",
+            "user": [
+                "userId": 3,
+                "name": "usernameeee"
+            ]
+        ])
+        
+        let item: Item = try! JSONDecoder().decode(Item.self, from: json)
+        print(item)
+        
         return true
     }
 

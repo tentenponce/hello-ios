@@ -16,6 +16,8 @@
 		74880BB12043B3BA00E38807 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BB02043B3B900E38807 /* MealTableViewCell.swift */; };
 		74880BB32043B90C00E38807 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BB22043B90C00E38807 /* MealTableViewController.swift */; };
 		74880BB52044114700E38807 /* MealDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BB42044114600E38807 /* MealDetailViewController.swift */; };
+		74880BB82044308E00E38807 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BB72044308E00E38807 /* Item.swift */; };
+		74880BBA2044FEDE00E38807 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BB92044FEDE00E38807 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		74880BB02043B3B900E38807 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		74880BB22043B90C00E38807 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		74880BB42044114600E38807 /* MealDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewController.swift; sourceTree = "<group>"; };
+		74880BB72044308E00E38807 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		74880BB92044FEDE00E38807 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		74235D39203EF04900EF35AE /* hello-ios */ = {
 			isa = PBXGroup;
 			children = (
+				74880BB620442F4E00E38807 /* Item */,
 				74235D3A203EF04900EF35AE /* AppDelegate.swift */,
 				74235D3C203EF04900EF35AE /* MealViewController.swift */,
 				74880BAE2043A2EC00E38807 /* RatingControl.swift */,
@@ -74,6 +79,15 @@
 				74235D46203EF04900EF35AE /* Info.plist */,
 			);
 			path = "hello-ios";
+			sourceTree = "<group>";
+		};
+		74880BB620442F4E00E38807 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				74880BB72044308E00E38807 /* Item.swift */,
+				74880BB92044FEDE00E38807 /* User.swift */,
+			);
+			path = Item;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +166,8 @@
 				74880BB12043B3BA00E38807 /* MealTableViewCell.swift in Sources */,
 				74880BB52044114700E38807 /* MealDetailViewController.swift in Sources */,
 				74235D3D203EF04900EF35AE /* MealViewController.swift in Sources */,
+				74880BBA2044FEDE00E38807 /* User.swift in Sources */,
+				74880BB82044308E00E38807 /* Item.swift in Sources */,
 				74880BAF2043A2ED00E38807 /* RatingControl.swift in Sources */,
 				74235D3B203EF04900EF35AE /* AppDelegate.swift in Sources */,
 			);
