@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Moya
+import RxSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -28,6 +30,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let item: Item = try! JSONDecoder().decode(Item.self, from: json)
         print(item)
+        
+        let loginParam = LoginParam.init(username: "1700387", password: "a@17003877")
+        let provider = MoyaProvider<Service>()
+        provider.rx.request(.login(param: loginParam)).subscribe { event in
+            switch event {
+            case .success(let response):
+                print("Successing")
+                print(String(data: response.data, encoding: String.Encoding.utf8))
+                break
+            case .error(let error):
+                print("Erroring")
+                print(error)
+                break
+            }
+        }
         
         return true
     }

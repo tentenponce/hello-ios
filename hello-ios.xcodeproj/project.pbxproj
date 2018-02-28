@@ -12,15 +12,20 @@
 		74235D40203EF04900EF35AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74235D3E203EF04900EF35AE /* Main.storyboard */; };
 		74235D42203EF04900EF35AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74235D41203EF04900EF35AE /* Assets.xcassets */; };
 		74235D45203EF04900EF35AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74235D43203EF04900EF35AE /* LaunchScreen.storyboard */; };
+		7431E2902045561600B720C7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431E28F2045561600B720C7 /* Service.swift */; };
+		7431E2942045599300B720C7 /* LoginParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431E2932045599300B720C7 /* LoginParam.swift */; };
 		74880BAF2043A2ED00E38807 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BAE2043A2EC00E38807 /* RatingControl.swift */; };
 		74880BB12043B3BA00E38807 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BB02043B3B900E38807 /* MealTableViewCell.swift */; };
 		74880BB32043B90C00E38807 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BB22043B90C00E38807 /* MealTableViewController.swift */; };
 		74880BB52044114700E38807 /* MealDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BB42044114600E38807 /* MealDetailViewController.swift */; };
 		74880BB82044308E00E38807 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BB72044308E00E38807 /* Item.swift */; };
 		74880BBA2044FEDE00E38807 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BB92044FEDE00E38807 /* User.swift */; };
+		AF1D846DE65CA59D68AE5CCC /* Pods_hello_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DC3D12E34A21B25B557DB3 /* Pods_hello_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2313A0118BF580D1CC84373F /* Pods-hello-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-hello-ios/Pods-hello-ios.release.xcconfig"; sourceTree = "<group>"; };
+		2F7EF0091C6AE83D7028EEBC /* Pods-hello-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hello-ios/Pods-hello-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		74235D37203EF04900EF35AE /* hello-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74235D3A203EF04900EF35AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74235D3C203EF04900EF35AE /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
@@ -28,12 +33,15 @@
 		74235D41203EF04900EF35AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74235D44203EF04900EF35AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74235D46203EF04900EF35AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7431E28F2045561600B720C7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7431E2932045599300B720C7 /* LoginParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginParam.swift; sourceTree = "<group>"; };
 		74880BAE2043A2EC00E38807 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		74880BB02043B3B900E38807 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		74880BB22043B90C00E38807 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		74880BB42044114600E38807 /* MealDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewController.swift; sourceTree = "<group>"; };
 		74880BB72044308E00E38807 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		74880BB92044FEDE00E38807 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D0DC3D12E34A21B25B557DB3 /* Pods_hello_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hello_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1D846DE65CA59D68AE5CCC /* Pods_hello_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,8 @@
 			children = (
 				74235D39203EF04900EF35AE /* hello-ios */,
 				74235D38203EF04900EF35AE /* Products */,
+				BFB3B88A137E0F0E5846589C /* Pods */,
+				79F72B647443BE2D62252415 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +77,7 @@
 		74235D39203EF04900EF35AE /* hello-ios */ = {
 			isa = PBXGroup;
 			children = (
+				7431E2922045597B00B720C7 /* Param */,
 				74880BB620442F4E00E38807 /* Item */,
 				74235D3A203EF04900EF35AE /* AppDelegate.swift */,
 				74235D3C203EF04900EF35AE /* MealViewController.swift */,
@@ -77,8 +89,18 @@
 				74235D41203EF04900EF35AE /* Assets.xcassets */,
 				74235D43203EF04900EF35AE /* LaunchScreen.storyboard */,
 				74235D46203EF04900EF35AE /* Info.plist */,
+				7431E28F2045561600B720C7 /* Service.swift */,
 			);
 			path = "hello-ios";
+			sourceTree = "<group>";
+		};
+		7431E2922045597B00B720C7 /* Param */ = {
+			isa = PBXGroup;
+			children = (
+				7431E2932045599300B720C7 /* LoginParam.swift */,
+			);
+			name = Param;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		74880BB620442F4E00E38807 /* Item */ = {
@@ -90,6 +112,23 @@
 			path = Item;
 			sourceTree = "<group>";
 		};
+		79F72B647443BE2D62252415 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC3D12E34A21B25B557DB3 /* Pods_hello_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB3B88A137E0F0E5846589C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F7EF0091C6AE83D7028EEBC /* Pods-hello-ios.debug.xcconfig */,
+				2313A0118BF580D1CC84373F /* Pods-hello-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74235D49203EF04900EF35AE /* Build configuration list for PBXNativeTarget "hello-ios" */;
 			buildPhases = (
+				930E0A1BD66525B7490FAF51 /* [CP] Check Pods Manifest.lock */,
 				74235D33203EF04900EF35AE /* Sources */,
 				74235D34203EF04900EF35AE /* Frameworks */,
 				74235D35203EF04900EF35AE /* Resources */,
+				9E34D30C29F4A16540551EF7 /* [CP] Embed Pods Frameworks */,
+				2154FD1B173FA31E8DCA6182 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,6 +199,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2154FD1B173FA31E8DCA6182 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hello-ios/Pods-hello-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		930E0A1BD66525B7490FAF51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hello-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E34D30C29F4A16540551EF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-hello-ios/Pods-hello-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hello-ios/Pods-hello-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		74235D33203EF04900EF35AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -167,7 +271,9 @@
 				74880BB52044114700E38807 /* MealDetailViewController.swift in Sources */,
 				74235D3D203EF04900EF35AE /* MealViewController.swift in Sources */,
 				74880BBA2044FEDE00E38807 /* User.swift in Sources */,
+				7431E2902045561600B720C7 /* Service.swift in Sources */,
 				74880BB82044308E00E38807 /* Item.swift in Sources */,
+				7431E2942045599300B720C7 /* LoginParam.swift in Sources */,
 				74880BAF2043A2ED00E38807 /* RatingControl.swift in Sources */,
 				74235D3B203EF04900EF35AE /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +410,7 @@
 		};
 		74235D4A203EF04900EF35AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7EF0091C6AE83D7028EEBC /* Pods-hello-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -318,6 +425,7 @@
 		};
 		74235D4B203EF04900EF35AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2313A0118BF580D1CC84373F /* Pods-hello-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
