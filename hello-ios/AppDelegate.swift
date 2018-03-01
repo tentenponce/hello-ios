@@ -31,20 +31,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let item: Item = try! JSONDecoder().decode(Item.self, from: json)
         print(item)
         
-        let loginParam = LoginParam.init(username: "1700387", password: "a@17003877")
-        let provider = MoyaProvider<Service>()
-        provider.rx.request(.login(param: loginParam)).subscribe { event in
-            switch event {
-            case .success(let response):
-                print("Successing")
-                print(String(data: response.data, encoding: String.Encoding.utf8))
-                break
-            case .error(let error):
-                print("Erroring")
-                print(error)
-                break
-            }
-        }
+        let loginParam = LoginParam.init(username: "", password: "")
+        
+        let repo = UserRepository(service: MyService())
+        
+        repo.login(param: loginParam).subscribe(
+            baseSubscriber(onNext: {loginResp in
+                print("child onNext: \(loginResp.message ?? "no message")")
+            }, onError: { error in
+                print("child error")
+            }, onCompleted: {
+                print("child onComplete")
+            })
+        )
         
         return true
     }

@@ -6,7 +6,7 @@
 //  Copyright © 2018 TenTen. All rights reserved.
 //
 
-struct LoginParam: Codable {
+public struct LoginParam: Codable {
     public var username: String
     public var password: String
 }

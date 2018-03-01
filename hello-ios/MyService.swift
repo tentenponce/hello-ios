@@ -8,20 +8,13 @@
 
 import Moya
 
-class MyService: MoyaProvider<Service> {
-    
-    public init() {
-        super.init()
-    }
-}
-
 enum Service {
     case login(param: LoginParam)
 }
 
 extension Service: TargetType {
     var baseURL: URL {
-        return URL(string: "your api here")!
+        return URL(string: "https://api-uat.unionbankph.com/ubp/uat/hr/benefits/v1/")!
     }
     
     var path: String {
@@ -54,8 +47,8 @@ extension Service: TargetType {
     var headers: [String : String]? {
         return [
             "Content-type": "application/json",
-            "X-IBM-Client-Id": "",
-            "X-IBM-Client-Secret": ""
+            "X-IBM-Client-Id": "e409ff0a-4695-4a13-b67f-bf5fdf6b2590",
+            "X-IBM-Client-Secret": "U6aT1pP4dY5jA6tQ0pR7gF0aS3tK7rK8kD8aJ7yX4mN1yY7sU6"
         ]
     }
 }

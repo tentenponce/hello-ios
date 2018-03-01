@@ -10,11 +10,13 @@ PODS:
   - RxCocoa (4.1.2):
     - RxSwift (~> 4.0)
   - RxSwift (4.1.2)
+  - Swinject (2.2.0)
 
 DEPENDENCIES:
   - Moya/RxSwift (~> 11.0)
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
+  - Swinject (~> 2.0)
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
@@ -22,7 +24,8 @@ SPEC CHECKSUMS:
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
   RxSwift: e49536837d9901277638493ea537394d4b55f570
+  Swinject: 4ca48bca7de5f398229a26abe1ac902b9f3ee541
 
-PODFILE CHECKSUM: bcb688042b765a5b4708c781effb54ffc3080fa7
+PODFILE CHECKSUM: 2d5f88e73f11abaa0f9a3a067443a92563fb78bb
 
 COCOAPODS: 1.4.0

@@ -14,6 +14,13 @@
 		74235D45203EF04900EF35AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74235D43203EF04900EF35AE /* LaunchScreen.storyboard */; };
 		7431E2902045561600B720C7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431E28F2045561600B720C7 /* Service.swift */; };
 		7431E2942045599300B720C7 /* LoginParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431E2932045599300B720C7 /* LoginParam.swift */; };
+		7431E2962046990B00B720C7 /* AppAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431E2952046990B00B720C7 /* AppAssembler.swift */; };
+		7431E29920469B5100B720C7 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431E29820469B5100B720C7 /* UserRepository.swift */; };
+		7431E29C20469E1200B720C7 /* LoginResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431E29B20469E1200B720C7 /* LoginResp.swift */; };
+		7431E29E2046A1CC00B720C7 /* ServiceErrorOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431E29D2046A1CC00B720C7 /* ServiceErrorOperator.swift */; };
+		7431E2A02046A65600B720C7 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431E29F2046A65600B720C7 /* ServiceError.swift */; };
+		7431E2A22046A6EA00B720C7 /* GenericErrorResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431E2A12046A6EA00B720C7 /* GenericErrorResp.swift */; };
+		7431E2A42046C62400B720C7 /* BaseSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431E2A32046C62300B720C7 /* BaseSubscriber.swift */; };
 		74880BAF2043A2ED00E38807 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BAE2043A2EC00E38807 /* RatingControl.swift */; };
 		74880BB12043B3BA00E38807 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BB02043B3B900E38807 /* MealTableViewCell.swift */; };
 		74880BB32043B90C00E38807 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74880BB22043B90C00E38807 /* MealTableViewController.swift */; };
@@ -35,6 +42,13 @@
 		74235D46203EF04900EF35AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7431E28F2045561600B720C7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		7431E2932045599300B720C7 /* LoginParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginParam.swift; sourceTree = "<group>"; };
+		7431E2952046990B00B720C7 /* AppAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembler.swift; sourceTree = "<group>"; };
+		7431E29820469B5100B720C7 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserRepository.swift; path = "hello-ios/UserRepository.swift"; sourceTree = SOURCE_ROOT; };
+		7431E29B20469E1200B720C7 /* LoginResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResp.swift; sourceTree = "<group>"; };
+		7431E29D2046A1CC00B720C7 /* ServiceErrorOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceErrorOperator.swift; sourceTree = "<group>"; };
+		7431E29F2046A65600B720C7 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		7431E2A12046A6EA00B720C7 /* GenericErrorResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericErrorResp.swift; sourceTree = "<group>"; };
+		7431E2A32046C62300B720C7 /* BaseSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSubscriber.swift; sourceTree = "<group>"; };
 		74880BAE2043A2EC00E38807 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		74880BB02043B3B900E38807 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		74880BB22043B90C00E38807 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
@@ -77,9 +91,12 @@
 		74235D39203EF04900EF35AE /* hello-ios */ = {
 			isa = PBXGroup;
 			children = (
+				7431E29A20469E0700B720C7 /* Resp */,
+				7431E29720469B3A00B720C7 /* Repository */,
 				7431E2922045597B00B720C7 /* Param */,
 				74880BB620442F4E00E38807 /* Item */,
 				74235D3A203EF04900EF35AE /* AppDelegate.swift */,
+				7431E2A32046C62300B720C7 /* BaseSubscriber.swift */,
 				74235D3C203EF04900EF35AE /* MealViewController.swift */,
 				74880BAE2043A2EC00E38807 /* RatingControl.swift */,
 				74880BB22043B90C00E38807 /* MealTableViewController.swift */,
@@ -90,6 +107,9 @@
 				74235D43203EF04900EF35AE /* LaunchScreen.storyboard */,
 				74235D46203EF04900EF35AE /* Info.plist */,
 				7431E28F2045561600B720C7 /* Service.swift */,
+				7431E2952046990B00B720C7 /* AppAssembler.swift */,
+				7431E29D2046A1CC00B720C7 /* ServiceErrorOperator.swift */,
+				7431E29F2046A65600B720C7 /* ServiceError.swift */,
 			);
 			path = "hello-ios";
 			sourceTree = "<group>";
@@ -101,6 +121,25 @@
 			);
 			name = Param;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7431E29720469B3A00B720C7 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7431E29820469B5100B720C7 /* UserRepository.swift */,
+			);
+			name = Repository;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		7431E29A20469E0700B720C7 /* Resp */ = {
+			isa = PBXGroup;
+			children = (
+				7431E2A12046A6EA00B720C7 /* GenericErrorResp.swift */,
+				7431E29B20469E1200B720C7 /* LoginResp.swift */,
+			);
+			name = Resp;
+			path = "New Group1";
 			sourceTree = "<group>";
 		};
 		74880BB620442F4E00E38807 /* Item */ = {
@@ -245,6 +284,7 @@
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -253,6 +293,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -266,13 +307,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7431E2A02046A65600B720C7 /* ServiceError.swift in Sources */,
 				74880BB32043B90C00E38807 /* MealTableViewController.swift in Sources */,
+				7431E2A22046A6EA00B720C7 /* GenericErrorResp.swift in Sources */,
 				74880BB12043B3BA00E38807 /* MealTableViewCell.swift in Sources */,
+				7431E29920469B5100B720C7 /* UserRepository.swift in Sources */,
+				7431E29C20469E1200B720C7 /* LoginResp.swift in Sources */,
 				74880BB52044114700E38807 /* MealDetailViewController.swift in Sources */,
 				74235D3D203EF04900EF35AE /* MealViewController.swift in Sources */,
 				74880BBA2044FEDE00E38807 /* User.swift in Sources */,
+				7431E2A42046C62400B720C7 /* BaseSubscriber.swift in Sources */,
 				7431E2902045561600B720C7 /* Service.swift in Sources */,
+				7431E2962046990B00B720C7 /* AppAssembler.swift in Sources */,
 				74880BB82044308E00E38807 /* Item.swift in Sources */,
+				7431E29E2046A1CC00B720C7 /* ServiceErrorOperator.swift in Sources */,
 				7431E2942045599300B720C7 /* LoginParam.swift in Sources */,
 				74880BAF2043A2ED00E38807 /* RatingControl.swift in Sources */,
 				74235D3B203EF04900EF35AE /* AppDelegate.swift in Sources */,
