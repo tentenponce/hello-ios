@@ -47,8 +47,8 @@ extension Service: TargetType {
     var headers: [String : String]? {
         return [
             "Content-type": "application/json",
-            "X-IBM-Client-Id": "e409ff0a-4695-4a13-b67f-bf5fdf6b2590",
-            "X-IBM-Client-Secret": "U6aT1pP4dY5jA6tQ0pR7gF0aS3tK7rK8kD8aJ7yX4mN1yY7sU6"
+            "X-IBM-Client-Id": "",
+            "X-IBM-Client-Secret": ""
         ]
     }
 }
